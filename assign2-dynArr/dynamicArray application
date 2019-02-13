@@ -1,0 +1,9 @@
+Part 1: Implementation of Dynamic Array, Stack, and Bag
+Next, complete the dynamic array and the dynamic array-based implementation of a stack and a bag in dynamicArray.c. The comments for each function will help you understand what each function should do.
+
+
+Part 3: Application of the Stack
+As discussed in the lecture notes, stacks are a very commonly used abstract data type. Applications of stacks include implementation of reverse Polish notation expression evaluation and undo buffers. 
+Stacks can also be used to check whether an expression has balanced parentheses, braces, and brackets (,{,[ or not. For example, expressions with balanced parentheses are " (x + y )", "{x + (y + z)}" 
+and with unbalanced are "(x+y", "[x + (y+ z])". Your program should accept the inputs via command line arguments only and handle spaces in the command line input. 
+Don't forget to wrap an input in quotes to enter it as one string. Also, make sure you handle a NULL input string. You can either consider a NULL string as balanced or ensure that the input string cannot be empty.
